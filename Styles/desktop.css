@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+@media all and (min-width: 1024px)   {
+     *{ 
+        margin: 0px 0px 0px 0px;
+      } 
+      .header {
+        padding: 10px 10px 10px 0px;
+        text-align: right;
+        margin: 0px 0px 5px 0px;
+        width: 100%;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        } 
+        /* -- encabezado -- */
+        .header label {
+          font-size: 85%;
+          margin: 0px 0px 5px 0px;
+          padding: 0px 10px 10px 0px;
+        }
+        .fa-moon-o {
+          margin-right: 10px;
+          padding-right: 5px;
+        }
+        /* ----------- */
+        /* -- Bruce -- */
+        #bruce {
+          text-align: left;
+          box-sizing: border-box;
+          padding: 18px 0px 0px 15px;
+          width: 33.3%;
+          height: 157px;
+          border-bottom: 1px groove black;
+          float: left;
+          margin-bottom: 12px ;
+          border-bottom-left-radius: 5%;
+        }
+        #bruce h1{
+          font-family: 'Source Sans Pro', sans-serif;
+          padding-bottom: 0px;
+          margin-bottom: 0px;
+          margin-top: 0px;
+          border: 0px;
+        }
+        #bruce span {
+          font-family: 'Source Sans Pro', sans-serif;
+          font-style: italic;
+        }
+        #foto-bruce {
+          text-align: center;
+          box-sizing: border-box;
+          padding: 15px 0px 0px 15px;
+          width: 33.3%;
+          height: 157px;
+          border-bottom: 1px groove black;
+          float: left;
+          margin-bottom: 12px;
+        }
+        #foto-bruce img{
+          height: 100px;
+          border-radius: 25%;
+        }
+    /* */
+        
+    /* */
+        #info {
+          box-sizing: border-box;
+          width: 33.3%;
+          float: left;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-style: italic;
+          padding: 28px 60px 0px 0px;
+          text-align: justify;
+          border-bottom: 1px groove black;
+          height: 157px;
+          border-bottom-right-radius: 5%;
+      
+        }
+        /* esperiencia */
+        #lista-exp {
+          font-family: 'Source Sans Pro', sans-serif;
+          box-sizing: content-box;
+          width: 50%;
+          float: left;
+          height: 162px;
+          border-bottom: 1px groove black;
+          border-bottom-left-radius: 5%;
+          margin-left: 5px;     
+        }
+        #lista-exp ul{
+          font-style: italic;
+        }
+        /* estudios */
+        #lista-est {
+          font-family: 'Source Sans Pro', sans-serif;
+          box-sizing: content-box;
+          width: 49.4%;
+          float: right;
+          height: 162px;
+          border-bottom: 1px groove black;
+          border-bottom-right-radius: 5%;    
+        }
+        #lista-est ul{
+          font-style: italic;
+        }
+        /* aptitudes */
+        #lista-apt {
+          font-family: 'Source Sans Pro', sans-serif;
+          box-sizing: content-box;
+          width: 50%;
+          height: 162px;
+          float: left;
+          border-bottom: 1px groove black;
+          margin: 12PX 0PX 5PX 0PX;
+          border-bottom-left-radius: 5%;
+          margin-left: 5px;
+        }
+        #lista-apt ul{
+          font-style: italic;
+        }
+        /* idiomas */
+        #lista-idm {
+          font-family: 'Source Sans Pro', sans-serif;
+          box-sizing: content-box;
+          float: right;
+          width: 49.4%;
+          height: 162px;
+          border-bottom: 1px groove black;
+          margin: 12PX 0PX 5PX 0PX; 
+          border-bottom-right-radius: 5%;
+        }
+        #lista-idm ul{
+          font-style: italic;
+        }
+        /* -- Contacto -- */
+        #burb-contacto {
+        box-sizing: content-box;
+        margin-bottom: 10px;
+      }
+        #burb-contacto div {
+          width: 170px;
+          height: 5px;
+          background-color: black;
+          margin: auto;
+        }
+        #contacto {
+          font-family: 'Source Sans Pro', sans-serif;
+          text-align: center;
+          margin-top: 5px;
+          padding: 12px 15px 0px 15px;
+          margin-top: 12px;
+          margin-bottom: 10px;
+        }
+        #dom {
+          text-align: center;
+          background-color: #2a2a2a;
+          width: 100px;
+          color: white;
+          height: 20px;
+          border-radius: 25%;
+          transition: .5s;
+        }
+        #claro {
+          text-align:center;
+          background-color: #2a2a2a;
+          border-radius: 50%;
+          height: 25px;
+          width: 31px;
+          padding: 6px 0px 0px 0px;
+          transition: .5s;
+          color: azure;
+        }
+
+        #oscuro {
+          text-align: center;
+          background-color: #2a2a2a;
+          border-radius: 50%;
+          height: 25px;
+          width: 31px;
+          transition: .5s;
+          padding: 6px 0px 0px 0px;
+          margin: 0px 5px 0px 0px;
+          color: azure;
+        }
+        
+}

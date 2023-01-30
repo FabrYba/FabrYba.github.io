@@ -1,0 +1,59 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+a {
+    text-decoration: none;
+}
+#cont-bord {
+    border-top: 1px groove black;
+}
+
+#burb-contacto {
+    top: 50%;
+    left: 50%;
+    display: flex;
+    padding: 0;
+}
+
+
+#burb-contacto li{
+    position: relative;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+#burb-contacto li span{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    background: #2a2a2a;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px !important;
+    transition: 1.5s ease-out;
+}
+#burb-contacto li:hover span{
+    transition: .3s;
+}
+#burb-contacto li:nth-child(2):hover span{
+    background: #3b5998 !important;
+}
+#burb-contacto li:nth-child(3):hover span{
+    background: #00bb2d !important;
+}
+#burb-contacto li:nth-child(4):hover span{
+    background: #833AB4   !important;
+}
+#burb-contacto li:nth-child(5):hover span{
+    background: #0e76a8  !important;
+}
+#burb-contacto li:nth-child(6):hover span{
+    background: #545657  !important;
+}
+#burb-contacto li:nth-child(7):hover span{
+    background: #c43e3e  !important;
+}
+
+
